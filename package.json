@@ -1,0 +1,50 @@
+{
+  "name": "@danielbalster/gdb-plugin",
+  "version": "0.1.0",
+  "description": "Kilo/OpenCode TypeScript plugin providing a GDB/MI debugging interface",
+  "license": "MIT",
+  "author": "Daniel Balster",
+  "type": "module",
+  "main": "./dist/gdb.js",
+  "exports": {
+    ".": {
+      "import": "./dist/gdb.js",
+      "types": "./dist/gdb.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@kilocode/plugin": "^7.1.20"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "kilo",
+    "opencode",
+    "gdb",
+    "debugger",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbalster/kilo-gdb-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielbalster/kilo-gdb-plugin/issues"
+  },
+  "homepage": "https://github.com/danielbalster/kilo-gdb-plugin#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
