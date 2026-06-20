@@ -1,4 +1,4 @@
-# @danielbalster/gdb-plugin
+# @dbalster/gdb-plugin
 
 A [Kilo](https://kilo.ai) / OpenCode TypeScript plugin that provides a full GDB/MI debugging interface via GDB's Machine Interface protocol.
 
@@ -14,7 +14,7 @@ A [Kilo](https://kilo.ai) / OpenCode TypeScript plugin that provides a full GDB/
 ## Installation
 
 ```bash
-npm install -g @danielbalster/gdb-plugin
+npm install -g @dbalster/gdb-plugin
 ```
 
 ## Usage in Kilo/OpenCode
@@ -23,7 +23,7 @@ Copy or symlink `gdb.ts` into your `.kilo/plugins/` directory:
 
 ```bash
 mkdir -p ~/project/.kilo/plugins
-cp node_modules/@danielbalster/gdb-plugin/dist/gdb.js ~/project/.kilo/plugins/gdb.js
+cp node_modules/@dbalster/gdb-plugin/dist/gdb.js ~/project/.kilo/plugins/gdb.js
 ```
 
 Then reference it in `.kilo/kilo.json`:
