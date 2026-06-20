@@ -1,6 +1,6 @@
 {
   "name": "@danielbalster/gdb-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kilo/OpenCode TypeScript plugin providing a GDB/MI debugging interface",
   "license": "MIT",
   "author": "Daniel Balster",
