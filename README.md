@@ -1,5 +1,10 @@
 # @dbalster/gdb-plugin
 
+> **100% AI-generated proof-of-concept.** This project was requested as: build a
+> TypeScript plugin that uses the GDB/MI protocol and exposes all debugging tools
+> needed for an AI agent to debug programs with GDB. Every line of code was
+> written by an AI language model.
+
 A [Kilo](https://kilo.ai) / OpenCode TypeScript plugin that provides a full GDB/MI debugging interface via GDB's Machine Interface protocol.
 
 ## Features
